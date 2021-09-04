@@ -2,3 +2,12 @@
 bootstrap
 lambda.zip
 .terraform
+
+**/.terraform/*
+
+# .tfstate files
+**/*.tfstate
+**/*.tfstate.*
+
+# .tfvars files
+*.tfvars
